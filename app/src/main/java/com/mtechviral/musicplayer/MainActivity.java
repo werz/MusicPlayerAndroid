@@ -55,7 +55,6 @@ public class MainActivity extends AppCompatActivity {
                     mediaPlayer = null;
                     b.setText("Play");
                 }else {
-
                     Runnable runnable = new Runnable() {
                         @Override
                         public void run() {
